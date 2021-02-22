@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 
 function App() {
+  const [task, setTask] = useState(null)
   return (
     <div className="container mt-5">
       <h1>Tareas</h1>
